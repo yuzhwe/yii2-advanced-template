@@ -7,11 +7,6 @@
 # 安装
 php composer install
 
-
-# 测试环境
-php init --env=Development --overwrite=n
-
-
 # 导入SQL到MYSQL
 sql/yii2.sql
 
@@ -25,7 +20,7 @@ server {
     root   /data/yii2-advanced-template;
 
     location ~* \.(gif|jpg|jpeg|png|css|js|ico|swf|apk|ttf|woff|eof|svg|txt)$ {
-        root   /data/open;
+        root   /data/yii2-advanced-template;
     }
     location / {
         if ($request_filename  !~* (js|css|images|txt|html|svg|woff|eof|ttf|wang)) {
