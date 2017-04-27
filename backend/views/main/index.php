@@ -1,0 +1,1 @@
+<h1>Welcome to Yii2 Backend Template</h1>
