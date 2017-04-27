@@ -54,3 +54,5 @@ http://local.yii2.com/backend/web/index.php
 ## Demo
 
 http://demo.chaensi.com/backend/web/index.php
+Username: admin
+Password: Aa111111
