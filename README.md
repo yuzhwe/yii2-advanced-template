@@ -12,9 +12,6 @@
 # 安装
 php composer install
 
-如时出现类似这种错误请执行
-composer global require "fxp/composer-asset-plugin"
-
 # 导入SQL到MYSQL
 sql/yii2.sql
 
