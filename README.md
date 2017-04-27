@@ -1,5 +1,10 @@
 # Yii2 后台模板
-集成了rbac与AdminLTE
+集成了rbac与AdminLTE，快速构建后台。
+
+包含了如下功能
+* 管理员登录、找回密码
+* RABC 菜单、角色、权限、路由
+* 用户模块
 
 ## Installation
 
