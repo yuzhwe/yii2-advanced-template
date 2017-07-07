@@ -3,7 +3,9 @@ namespace backend\controllers;
 
 use backend\base\Constants;
 use backend\base\Utility;
+use common\models\User;
 use Yii;
+use yii\db\Expression;
 use yii\helpers\Url;
 
 /**

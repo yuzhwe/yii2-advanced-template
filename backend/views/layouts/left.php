@@ -4,7 +4,7 @@
          $callback = function ($menu) {
             return [
                 'label' => $menu['name'],
-                'icon' => $menu['icon'] ? 'fa '. $menu['icon'] : '',
+                'icon' => $menu['icon'] ? $menu['icon'] : '',
                 'url' => \common\modules\rbac\components\MenuHelper::parseRoute($menu['route']),
                 'items' => $menu['children']
             ];

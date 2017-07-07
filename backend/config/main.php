@@ -79,7 +79,7 @@ return [
             },
             'bundles' => [
                 'dmstr\web\AdminLteAsset' => [
-                    'skin' => "skin-black",
+                    'skin' => "skin-red-light",
                 ],
                 'yii\web\JqueryAsset' => [
                     'jsOptions' => [

@@ -22,7 +22,7 @@ $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/almasaeed201
         <title><?= Yii::$app->name ?> <?= Html::encode($this->title) ?></title>
         <?php $this->head() ?>
     </head>
-    <body class="hold-transition skin-black fixed sidebar-mini">
+    <body class="hold-transition skin-red-light sidebar-mini">
     <?php $this->beginBody() ?>
 
     <?
