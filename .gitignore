@@ -33,5 +33,7 @@ phpunit.phar
 
 # vagrant runtime
 /.vagrant
+/backend/runtime
+/frontend/runtime
 
 composer.lock

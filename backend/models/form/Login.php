@@ -33,7 +33,7 @@ class Login extends Model
             // password is validated by validatePassword()
             ['password', 'validatePassword'],
 
-            ['verifyCode', 'captcha', 'captchaAction' => 'main/captcha'],
+//            ['verifyCode', 'captcha', 'captchaAction' => 'main/captcha'],
         ];
     }
 

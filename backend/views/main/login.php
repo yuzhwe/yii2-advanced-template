@@ -20,16 +20,16 @@ use yii\bootstrap\ActiveForm;
         <?= $form->field($model, 'password')->passwordInput() ?>
 
         <?
-        echo $form->field($model,'verifyCode')->widget(\yii\captcha\Captcha::className(), [
-            'options' => [
-                'class' => 'form-control',
-                'style' => 'width:150px;',
-                'placeholder' => Yii::t('default', 'Please enter the verification code')
-            ],
-            'captchaAction' => 'main/captcha',
-            'imageOptions' => ['title' => Yii::t('default', 'Click Refresh')],
-            'template' => "{input} {image}",
-        ]);
+//        echo $form->field($model,'verifyCode')->widget(\yii\captcha\Captcha::className(), [
+//            'options' => [
+//                'class' => 'form-control',
+//                'style' => 'width:150px;',
+//                'placeholder' => Yii::t('default', 'Please enter the verification code')
+//            ],
+//            'captchaAction' => 'main/captcha',
+//            'imageOptions' => ['title' => Yii::t('default', 'Click Refresh')],
+//            'template' => "{input} {image}",
+//        ]);
         ?>
 
         <?= $form->field($model, 'rememberMe')->checkbox() ?>
